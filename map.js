@@ -82,8 +82,8 @@ Main = (function() {
                 geometry: point,                            
                 symbol: markerSymbol,                            
                 popupTemplate: {                                
-                    title: key + ": " + value.city + ", " + value.state,
-                    content: "City: " + value.city + "<br>State: " + value.state                          
+                    title: key,
+                    content:value.label + "<br>City: " + value.city + "<br>State: " + value.state                          
                 }                  
             });
                           
