@@ -25,9 +25,9 @@ Main = (function() {
         map: map,
         camera: {
             position: {
-                x: -105.503,
-                y: 44.270,
-                z: 20000000,
+                x: -108.95977741804786,
+                y: 41.166101915852764,
+                z: 2000000,
                 spatialReference: {
                     wkid: 4326
     
@@ -67,7 +67,7 @@ Main = (function() {
                                 
             const markerSymbol = {                            
                 type: "simple-marker",                             
-                color: [0, 0, 255],                            
+                color: [0, 163, 108],                            
                 outline: {
                               
                     // autocasts as new SimpleLineSymbol()                              
@@ -82,7 +82,8 @@ Main = (function() {
                 geometry: point,                            
                 symbol: markerSymbol,                            
                 popupTemplate: {                                
-                    title: key + ": " + value.city + ", " + value.state                            
+                    title: key + ": " + value.city + ", " + value.state,
+                    content: "City: " + value.city + "<br>State: " + value.state                          
                 }                  
             });
                           
