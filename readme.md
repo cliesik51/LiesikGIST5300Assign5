@@ -4,3 +4,6 @@
 
 This is the launching point for the webmap created for this assignment.
 <https://cliesik51.github.io/LiesikGIST5300Assign5/>
+
+Link for the search function example.
+<https://developers.arcgis.com/javascript/latest/references/core/widgets/Search/>
